@@ -96,16 +96,16 @@ function speed(){
         vy *= rate;
     }
     
-    bx += vx/(bs/2);
-    by += vy/(bs/2);
+    bx += vx/(bs/1.5);
+    by += vy/(bs/1.5);
 
     // ワールド制限
 
     if(bx < 1000 || bx > 4000){
-        bx -= vx/bs;
+        bx -= vx/(bs/1.5);
     }
     if(by < 600 || by > 4400){
-        by -= vy/bs;
+        by -= vy/(bs/1.5);
     }
 }
 
