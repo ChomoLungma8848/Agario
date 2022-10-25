@@ -28,7 +28,7 @@ const os = offcan.width = offcan.height
 
 let bx = random(1000,4000);
 let by = random(600,4400);
-let bs = 250;
+let bs = 25;
 
 let mouseX = w/2;
 let mouseY = h/2;
