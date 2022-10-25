@@ -96,8 +96,8 @@ function speed(){
         vy *= rate;
     }
     
-    bx += vx/(bs/1.5);
-    by += vy/(bs/1.5);
+    bx += vx/(bs);
+    by += vy/(bs);
 
     // ワールド制限
 
