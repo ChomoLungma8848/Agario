@@ -28,7 +28,7 @@ const os = offcan.width = offcan.height
 
 let bx = random(1000,4000);
 let by = random(600,4400);
-let bs = 25;
+let bs = 250;
 
 let mouseX = w/2;
 let mouseY = h/2;
@@ -96,8 +96,8 @@ function speed(){
         vy *= rate;
     }
     
-    bx += vx/(bs);
-    by += vy/(bs);
+    bx += vx/(bs/1.5);
+    by += vy/(bs/1.5);
 
     // ワールド制限
 
